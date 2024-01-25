@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    font-family: cursive;
+    padding: 0;
+}
+.banner{
+    width: 100;
+    height: 100vh;
+    background-color: aqua;
+    background-size:cover;
+    background-position: center;
+    /*background-image: url("backgroundpicture2.jpg");*/
+
+}
+.navbar{
+    width: 75%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: crimson;
+    background-image: url("");
+    border:2px solid black;
+    border-radius: 10px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: black;
+    position: relative;
+    font-size: 30px;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: inherit;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top:9px ;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-size: 26px;
+    cursor: pointer;
+}
+.content .cn a{
+    text-decoration: none;
+    color: crimson;
+}
+.cn :hover{
+    background-color:deepskyblue;
+}
+.content span{
+    color: red;
+    font-size: 60px;
+}
+.form{
+    width: 350px;
+    height: 180px;
+    background-color: burlywood;
+    position: absolute;
+    top: 120px;
+    left: 1000px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.form h2{
+    color: black;
+    font-size: 22px;
+    width: 200px;
+    text-align: center;
+    padding: 2px;
+    border-radius: 10px;
+}
+.form input{
+    background-color: cadetblue;
+    width: 200px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius:10px ;
+    margin-top:20px ;
+}
+.form .btn{
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    border-color: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn a{
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+.form .link{
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+    color: 1px solid black;
+}
+.form .link a{
+    text-decoration: none;
+    color: black;
+}

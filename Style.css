@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    font-size: large;
+    font-weight: bold;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: aqua;
+    color: darkgreen;
+}
+.form{
+    width: 420px;
+    background-color: greenyellow;
+    padding: 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.form h1{
+    text-decoration: underline;
+    font-family: "Century Schoolbook L";
+    text-align: center;
+}
+.form .input-box{
+    position: relative;
+    width: 420;
+    height: 50px;
+    margin: 30px 0px;
+    background-color: coral;
+}
+.input-box input{
+    width: 100%;
+    height: 50%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid;
+}
+.input-box input::placeholder{
+    color: darkmagenta;
+    /*margin:10px 30px ;*/
+    text-size-adjust: inherit;
+}
+.form .btn button{
+    width: 50%;
+    height: 45px;
+    background-color: mediumorchid;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    color: black;
+    box-shadow: darkgreen;
+}
